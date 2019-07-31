@@ -1,13 +1,26 @@
 h1{
   display: flex;
+  color: #2789b3;
   margin-left: 300px;
   margin-right: 300px;
   justify-content: center;
   flex-flow: row;
-  font-size: 50px;
-  border: double black;
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
   background-color: white
 
+
+}
+.picture{
+  width: 310px;
+  height: 200px;
+  object-fit: cover;
+}
+#first{
+  margin-left: 80px;
+}
+#second{
+display: inline-block;
 }
 input{
   width: 300px;
@@ -17,16 +30,18 @@ input{
 }
 h2{
   display: flex;
+  color: #2789b3;
   justify-content: center;
+  font-family: 'Inconsolata', monospace;
 
 }
 div{
 
   display: flex wrap;
+  color: #2789b3;
   margin-left: 470px;
   justify-content: flex-start;
+  font-family: 'Inconsolata', monospace;
 
-}
-body{
-  background-color: #6bd3ff;
+
 }
