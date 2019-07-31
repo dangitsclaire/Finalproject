@@ -1,8 +1,13 @@
 h1{
   display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
   justify-content: center;
   flex-flow: row;
-  font-size: 20px;
+  font-size: 50px;
+  border: double black;
+  background-color: white
+
 }
 input{
   width: 300px;
@@ -10,6 +15,18 @@ input{
   flex-wrap: wrap;
   justify-content: center;
 }
-body{
+h2{
+  display: flex;
   justify-content: center;
+
+}
+div{
+
+  display: flex wrap;
+  margin-left: 470px;
+  justify-content: flex-start;
+
+}
+body{
+  background-color: #6bd3ff;
 }
