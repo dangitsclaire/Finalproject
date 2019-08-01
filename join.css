@@ -1,4 +1,4 @@
-{
+.title {
   display: flex;
   color: #2789b3;
   margin-left: 300px;
@@ -11,17 +11,17 @@
 }
 
 .top {
-  border: 3px black solid;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  height: 1.25in;
-  margin-left: center;
-  text-align: center;
-  font-size: 50px;
-  margin-bottom: 0;
-  background-color: #2789B3;
-  color: white;
+    border: 3px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+    flex-direction: row;
+    height: 1.25in;
+    font-size: 50px;
+    margin-bottom: 0;
+    background-color: #2789B3;
+    color: white;
 }
 
 .expo {
@@ -50,11 +50,25 @@ img {
   flex-direction: row;
 }
 
-/* #first{
-  margin-left: 80px;
-} */
+#first{
+  height: 200px;
+  width: 25%;
+  object-fit: cover;
+}
 #second{
-display: inline-block;
+  height: 200px;
+  width: 25%;
+  object-fit: cover;
+}
+#third {
+  height: 200px;
+  width: 25%;
+  object-fit: cover;
+}
+#fourth {
+  height: 200px;
+  width: 25%;
+  object-fit: cover;
 }
 input{
   width: 300px;
@@ -70,15 +84,17 @@ h2{
 
 }
 .stuff{
-
+margin-top: 50px;
   display: flex;
   flex-wrap: nowrap;
   color: #2789b3;
-  /* height: 200px;
-  width: 100%; */
-  /* margin-left: 470px; */
+  height: 200px;
   justify-content: center;
   text-align: center;
   flex-direction: column;
   font-family: 'Inconsolata', monospace;
+}
+
+input {
+    margin-left: 470px;
 }
