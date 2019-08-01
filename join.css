@@ -1,4 +1,4 @@
-h1{
+{
   display: flex;
   color: #2789b3;
   margin-left: 300px;
@@ -7,7 +7,8 @@ h1{
   flex-flow: row;
   font-size: 40px;
   font-family: 'Inconsolata', monospace;
-  background-color: white
+  background-color: white;
+}
 
 .top {
   border: 3px black solid;
@@ -15,21 +16,43 @@ h1{
   justify-content: center;
   flex-direction: row;
   height: 1.25in;
+  margin-left: center;
+  text-align: center;
   font-size: 50px;
   margin-bottom: 0;
   background-color: #2789B3;
   color: white;
 }
-    
+
+.expo {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    background-color: #FFAE52;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
 }
 .picture{
   width: 310px;
   height: 200px;
   object-fit: cover;
 }
-#first{
-  margin-left: 80px;
+
+.photo {
+  display: flex;
+  flex-wrap: nowrap;
 }
+
+img {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+/* #first{
+  margin-left: 80px;
+} */
 #second{
 display: inline-block;
 }
@@ -46,13 +69,16 @@ h2{
   font-family: 'Inconsolata', monospace;
 
 }
-div{
+.stuff{
 
-  display: flex wrap;
+  display: flex;
+  flex-wrap: nowrap;
   color: #2789b3;
-  margin-left: 470px;
-  justify-content: flex-start;
+  /* height: 200px;
+  width: 100%; */
+  /* margin-left: 470px; */
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
   font-family: 'Inconsolata', monospace;
-
-
 }
